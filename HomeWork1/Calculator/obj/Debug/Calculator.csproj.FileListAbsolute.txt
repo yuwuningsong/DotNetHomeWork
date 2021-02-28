@@ -1,0 +1,7 @@
+D:\bugs\C#\Homework\1\Calculator\bin\Debug\Calculator.exe.config
+D:\bugs\C#\Homework\1\Calculator\bin\Debug\Calculator.exe
+D:\bugs\C#\Homework\1\Calculator\bin\Debug\Calculator.pdb
+D:\bugs\C#\Homework\1\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+D:\bugs\C#\Homework\1\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\bugs\C#\Homework\1\Calculator\obj\Debug\Calculator.exe
+D:\bugs\C#\Homework\1\Calculator\obj\Debug\Calculator.pdb

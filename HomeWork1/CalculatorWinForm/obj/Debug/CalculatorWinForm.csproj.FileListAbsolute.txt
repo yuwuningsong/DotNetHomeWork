@@ -1,0 +1,10 @@
+D:\bugs\C#\Homework\1\CalculatorWinForm\bin\Debug\CalculatorWinForm.exe.config
+D:\bugs\C#\Homework\1\CalculatorWinForm\bin\Debug\CalculatorWinForm.exe
+D:\bugs\C#\Homework\1\CalculatorWinForm\bin\Debug\CalculatorWinForm.pdb
+D:\bugs\C#\Homework\1\CalculatorWinForm\obj\Debug\CalculatorWinForm.csprojAssemblyReference.cache
+D:\bugs\C#\Homework\1\CalculatorWinForm\obj\Debug\CalculatorWinForm.Form1.resources
+D:\bugs\C#\Homework\1\CalculatorWinForm\obj\Debug\CalculatorWinForm.Properties.Resources.resources
+D:\bugs\C#\Homework\1\CalculatorWinForm\obj\Debug\CalculatorWinForm.csproj.GenerateResource.cache
+D:\bugs\C#\Homework\1\CalculatorWinForm\obj\Debug\CalculatorWinForm.csproj.CoreCompileInputs.cache
+D:\bugs\C#\Homework\1\CalculatorWinForm\obj\Debug\CalculatorWinForm.exe
+D:\bugs\C#\Homework\1\CalculatorWinForm\obj\Debug\CalculatorWinForm.pdb
