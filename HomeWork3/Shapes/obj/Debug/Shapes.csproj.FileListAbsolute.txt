@@ -1,0 +1,7 @@
+D:\bugs\C#\Homework\HomeWork3\HomeWork3\Shapes\bin\Debug\Shapes.exe.config
+D:\bugs\C#\Homework\HomeWork3\HomeWork3\Shapes\bin\Debug\Shapes.exe
+D:\bugs\C#\Homework\HomeWork3\HomeWork3\Shapes\bin\Debug\Shapes.pdb
+D:\bugs\C#\Homework\HomeWork3\HomeWork3\Shapes\obj\Debug\Shapes.csprojAssemblyReference.cache
+D:\bugs\C#\Homework\HomeWork3\HomeWork3\Shapes\obj\Debug\Shapes.csproj.CoreCompileInputs.cache
+D:\bugs\C#\Homework\HomeWork3\HomeWork3\Shapes\obj\Debug\Shapes.exe
+D:\bugs\C#\Homework\HomeWork3\HomeWork3\Shapes\obj\Debug\Shapes.pdb
