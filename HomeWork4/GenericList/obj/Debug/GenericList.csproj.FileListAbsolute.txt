@@ -1,0 +1,7 @@
+D:\bugs\C#\Homework\HomeWork4\GenericList\bin\Debug\GenericList.exe.config
+D:\bugs\C#\Homework\HomeWork4\GenericList\bin\Debug\GenericList.exe
+D:\bugs\C#\Homework\HomeWork4\GenericList\bin\Debug\GenericList.pdb
+D:\bugs\C#\Homework\HomeWork4\GenericList\obj\Debug\GenericList.csprojAssemblyReference.cache
+D:\bugs\C#\Homework\HomeWork4\GenericList\obj\Debug\GenericList.csproj.CoreCompileInputs.cache
+D:\bugs\C#\Homework\HomeWork4\GenericList\obj\Debug\GenericList.exe
+D:\bugs\C#\Homework\HomeWork4\GenericList\obj\Debug\GenericList.pdb
