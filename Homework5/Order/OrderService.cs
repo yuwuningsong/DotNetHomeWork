@@ -8,19 +8,24 @@ namespace Order
 {
     class OrderService
     {
-        private List<Order> orders = new List<Order>();
+        public List<Order> Orders { get; }
+
+        public OrderService()
+        {
+            Orders = new List<Order>();
+        }
 
         public void AddOrder(Order order)
         {
             if (FindOrder(order) == null)
             {
-                orders.Add(order);
+                Orders.Add(order);
             }
         }
 
         public void DeleteOrder(Order order)
         {
-            if (!orders.Remove(FindOrder(order)))
+            if (!Orders.Remove(FindOrder(order)))
             {
                 throw new Exception("该订单不存在！");
             }
@@ -29,7 +34,7 @@ namespace Order
         // 查询列表中某订单
         public Order FindOrder(Order order)
         {
-            var orderNeed = orders.Where(ord => ord.Equals(order));
+            var orderNeed = Orders.Where(ord => ord.Equals(order));
             if (orderNeed.Count() == 0) return null;
             Order[] ordersNeed = orderNeed.ToArray();
             if (ordersNeed.Length > 1) throw new Exception("存在相同订单！");
@@ -47,25 +52,25 @@ namespace Order
             FindOrder(order).Customer = new Customer(customerName);
         }
 
+        // 查询订单
         public IEnumerable<Order> FindOrder(int orderID)
         {
-            return orders.Where(order => order.OrderID == orderID);
+            return Orders.Where(order => order.OrderID == orderID);
         }
 
         public IEnumerable<Order> FindOrder(Product product)
         {
-            return orders.Where(order => order.ContainProduct(product));
+            return Orders.Where(order => order.ContainProduct(product));
         }
 
         public IEnumerable<Order> FindOrder(Customer customer)
         {
-            return orders.Where(order => order.Customer.Equals(customer));
+            return Orders.Where(order => order.Customer.Equals(customer));
         }
 
         public IEnumerable<Order> FindOrder(float totalPrice)
         {
-            return orders.Where(order => order.TotalPrice == totalPrice);
+            return Orders.Where(order => order.TotalPrice == totalPrice);
         }
-
     }
 }

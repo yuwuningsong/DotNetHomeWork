@@ -56,12 +56,16 @@ namespace Order
                 orderService.AddOrder(orders[0]);
                 orderService.AddOrder(orders[1]);
 
+                orderService.Orders.Sort();
+
                 foreach (Order order in orderService.FindOrder(new Customer("AAA")))
                 {
                     Console.WriteLine(order);
                 }
 
-                foreach (Order order in orderService.FindOrder(new Product() { Name = "A", Price = 1f }))
+                orderService.Orders.Sort((order1, order2) => order1.OrderDetails.Count - order2.OrderDetails.Count);
+
+                foreach (Order order in orderService.FindOrder(new Product() { Name = "B", Price = 2f }))
                 {
                     Console.WriteLine(order);
                 }
