@@ -1,0 +1,1360 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="always" />
+    <title>IT新闻 - 博客园</title>
+    <meta name="keywords" content="IT新闻,it news,互联网新闻,业界新闻,IT资讯,IT业界,新闻频道" />
+    <meta name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link id="rsslink" title="rss" type="application/rss+xml" rel="alternate" href="http://feed.cnblogs.com/news/rss" />
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico" />
+    <link rel="stylesheet" href="/Content/bundles/news.css?v=3xP9uuDECgAlC6BJj9zLyJMsa0nKoD5dAt4paP25qKM" />
+    <link rel="stylesheet" type="text/css" href="//mention.cnblogs.com/css/mention-simple.css?id=20160613">
+    <link id="smallScreen" rel="stylesheet" type="text/css" media="screen and (max-width:768px)" href="/Content/smallScreen.css?v=nefLI3mgFt-9OMgJr0ayftmT0REvBpYq2wb0OMDO1pY" />
+    <script type="text/javascript" src="/Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/Scripts/bundles/news.js?v=NWzOaUGAd-DmDHBEBJ-MPL3eLK8Vpc26nS6ubbAaS3o"></script>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/1090369/news_E1', [728, 90], 'div-gpt-ad-1533633736227-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/news_E2', [300, 250], 'div-gpt-ad-1533633736227-1').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/news_E3', [300, 250], 'div-gpt-ad-1533633736227-2').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/news_E4', [468, 60], 'div-gpt-ad-1533633736227-3').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+</head>
+<body>
+    <a name="top"></a>
+    <div id="wrap">
+        <div id="header">
+            <a name="top"></a>
+            <div id="wrapper_top_block">
+                <div id="login_area">
+                </div>
+                <div id="top_mini_nav_block">&laquo; <a href="//www.cnblogs.com" class="dark_gray" title="程序员的网上家园">网站首页</a> <a href="http://zzk.cnblogs.com/" class="dark_gray">找找看</a></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div id="main_wrapper">
+        <div id="main_header">
+            <div class="header_div">
+                <div class="logo">
+                    <a href="//www.cnblogs.com">
+                        <img src="/Images/logo.gif" alt="logo" />
+                    </a>
+                </div>
+                <div class="banner">
+                    <div id="clubHeader_panelNews">
+                        <div id="e1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainmenu">
+                <div class="feedback_block">
+                    <a href="//group.cnblogs.com/forum/public/">反馈问题或建议</a>
+                </div>
+                <ul id="navlist_main">
+                    <li style="margin-left:20px;">
+                        <a href="//www.cnblogs.com">首页</a>
+                    </li>
+                    <li>
+                        <a href="//home.cnblogs.com">园子</a>
+                    </li>
+                    <li>
+                    </li>
+                    <li id="clubHeader_liNews">
+                        <a id="clubHeader_lnkNews" title="IT新闻" class="current" href="/">新 闻</a>
+                    </li>
+                    <li>
+                        <a id="clubHeader_lkQuestionMenu" href="//q.cnblogs.com/">博问</a>
+                    </li>
+                    <li>
+                    </li>
+                    <li>
+                        <a id="clubHeader_lkIngMenu" href="//ing.cnblogs.com/">闪存</a>
+                    </li>
+                    <li>
+                        <a id="clubHeader_lnkWz" href="//wz.cnblogs.com/">收藏</a>
+                    </li>
+                    <li>
+                        <a href="https://brands.cnblogs.com/">专区</a>
+                    </li>
+                    <li>
+                        <a href="//kb.cnblogs.com">知识库</a>
+                    </li>
+                    <li id="clubHeader_liMyMessage">
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+                if (typeof (jQuery) != 'undefined') {
+                    GetUserInfo();
+                }
+            </script>
+        </div>
+        <div id="sideleft">
+    <div id="guide" style="display:none;">
+        <h3>
+            <a href="//www.cnblogs.com" title="程序员的网上家园">博客园</a> » <a href="/" title="IT新闻">新闻</a><span id="lbMobileAuditTips" style="display:none;"></span>
+        </h3>
+    </div>
+    <div id="navcontainer" class="floatright" style="padding-top: 1px;">
+        <ul id="navlist">
+            <li>
+                <a href="/" class="current">最新发布</a>
+            </li>
+            <li>
+                <a href="/n/recommend">推荐新闻</a>
+            </li>
+            <li>
+                <a href="/n/digg">热门新闻</a>
+            </li>
+            <li>
+                <a href="/n/comment">新闻评论</a>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+    <div id="news_list">
+            <div class="news_block" id="entry_691630">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691630,'agree')">
+                        <span id="digg_num_691630" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691630" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691630/" target="_blank">销售二手事故车被判“退一赔三”！特斯拉专家团称切割车比原装车更安全</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_429.htm"><img src="https://img2020.cnblogs.com/news_topic/20200919095456914-256019808.png" class="topic_img" alt=""/></a>
+                        近段时间以来，特斯拉因“销售二手事故车被判退一赔三”的事件，引发广泛关注。 据财经网报道，2019 年 6 月 1 日，韩先生过特斯拉中国官网与特斯拉公司签订《二手车订购协议》，购买 Model S 二手车一辆，并于 2019 年 5 月 31 日付款 379700 元。 韩先生表示，购车前，特斯拉
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691630#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">81 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/Tesla/" class="gray">Tesla</a> </span>
+                        发布于 <span class="gray">2021-04-24 20:22</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691629">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691629,'agree')">
+                        <span id="digg_num_691629" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691629" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691629/" target="_blank">索尼提议为Linux提供新的软件看门狗以维持系统健康运行</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_171.htm"><img src="https://img2018.cnblogs.com/news_topic/20190828165655406-436665292.png" class="topic_img" alt=""/></a>
+                        索尼 Linux 工程师 Peter Enderborg 为 Linux 内核提出了一种软看门狗（Soft Watchdog）概念，主要用于在某些情况下执行预定义的任务，它不像常用的硬看门狗那样在出现问题时自动重新启动系统。 这个提议的&quot;软看门狗&quot;将执行除硬重启之外的任务，例如在系统运行缓慢或内存不
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691629#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">55 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E7%B4%A2%E5%B0%BC/" class="gray">索尼</a> </span>
+                        发布于 <span class="gray">2021-04-24 20:11</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691628">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691628,'agree')">
+                        <span id="digg_num_691628" class="diggnum">1</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691628" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691628/" target="_blank">为提高探测效率，我国将在月球表面建立基础设施</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_319.htm"><img src="https://img2018.cnblogs.com/news_topic/20181019121101783-952728829.gif" class="topic_img" alt=""/></a>
+                        4 月 24 日，在 2021 年中国航天大会中国探月工程论坛上，国家航天局探月与航天工程中心副主任、探月工程三期副总设计师裴照宇表示，中国的月球探测还将继续发展，从单次任务模式向长期可持续探测转变，“未来为了提高探测效率，我们想在月球表面建立一些基础设施，来更高效开展月球探测和开发利用研究。” 2
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691628#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">34 人浏览</span>
+                        
+                        发布于 <span class="gray">2021-04-24 20:00</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691627">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691627,'agree')">
+                        <span id="digg_num_691627" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691627" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691627/" target="_blank">特斯拉发声明回应广州事故：在全力配合交管部门的调查工作</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_429.htm"><img src="https://img2020.cnblogs.com/news_topic/20200919095456914-256019808.png" class="topic_img" alt=""/></a>
+                        4 月 24 日消息，针对广州增城特斯拉事故，特斯拉发声明称：正在全力配合交管部门的调查工作。 4 月 20 日晚，社交媒体上疯传一辆特斯拉在东莞东江大道因失控、追尾并致自燃的消息和视频。画面显示，车子燃起的烈火附近，医护人员正对车祸致伤人员进行抢救。 4 月 21 日，广州增城警方通报称，2021
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691627#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">57 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/Tesla/" class="gray">Tesla</a> </span>
+                        发布于 <span class="gray">2021-04-24 19:40</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691626">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691626,'agree')">
+                        <span id="digg_num_691626" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691626" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691626/" target="_blank">蓝箭航天与中信书店联合举办航天日科普活动</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_1313.htm"><img src="https://img2018.cnblogs.com/news_topic/20180928130057173-1940303455.png" class="topic_img" alt=""/></a>
+                        4 月 24 日，在第六个“中国航天日”到来之际，蓝箭航天与中信书店共同开启“星辰&#183;书海&#183;探索不止”主题活动。 即日起至 5 月 5 日，蓝箭航天携手中信书店在深圳机场 T3 航站楼三层国内出发十字指廊为旅客和读者打造一个集阅读、体验、互动于一体的航天科技科普空间。在这里，旅客不仅可以通过观看视频和
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691626#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">34 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E8%93%9D%E7%AE%AD%E8%88%AA%E5%A4%A9/" class="gray">蓝箭航天</a> </span>
+                        发布于 <span class="gray">2021-04-24 19:30</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691625">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691625,'agree')">
+                        <span id="digg_num_691625" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691625" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691625/" target="_blank">美国权威调查报告：特斯拉246起“刹车失灵”均是因踏板使用错误</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_429.htm"><img src="https://img2020.cnblogs.com/news_topic/20200919095456914-256019808.png" class="topic_img" alt=""/></a>
+                        最近几天，可能车圈最热门的话题就是特斯拉&quot;刹车失灵”了，由上海车展维权引发的关于特斯拉“意外加速”与“刹车失灵”的传闻几乎充斥了我的每一个与车有关的微信群，但人云亦云，到现在为止，即使特斯拉公布了事故前的部分数据，大家仍在争论不休。 那么，我以中国最早的 Model3 车主、专业赛车手、驾驶培训师这
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691625#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">131 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/Tesla/" class="gray">Tesla</a> </span>
+                        发布于 <span class="gray">2021-04-24 19:20</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691624">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691624,'agree')">
+                        <span id="digg_num_691624" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691624" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691624/" target="_blank">龙飞船成功与国际空间站交会对接</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_710.htm"><img src="https://img2018.cnblogs.com/news_topic/20190827105818505-1028007729.png" class="topic_img" alt=""/></a>
+                        腾讯科技讯，4 月 24 日讯，SpaceX 公司表示，龙飞船成功与国际空间站交会对接。 当地时间 23 日 5 时 50 分左右，载有 4 名宇航员的 SpaceX“龙”飞船在肯尼迪航天中心发射升空，飞船将飞往国际空间站。本次载人飞行任务也是 SpaceX 与美国国家航空航天局进行的第二次商业载人
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691624#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">47 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/SpaceX/" class="gray">SpaceX</a> </span>
+                        发布于 <span class="gray">2021-04-24 19:04</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691623">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691623,'agree')">
+                        <span id="digg_num_691623" class="diggnum">1</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691623" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691623/" target="_blank">苏宁易购发布2020年报，实现营业收入2522.96亿元</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_414.htm"><img src="//images0.cnblogs.com/news_topic/苏宁易购.png" class="topic_img" alt=""/></a>
+                        4 月 23 日晚，苏宁易购发布 2020 年度报告。报告显示，2020 年公司实现营业收入2,522.96 亿元。苏宁易购 2020 年商品销售规模为4,163.15 亿元，同比增长 9.92%，其中线上平台商品销售规模2,903.35 亿元，同比增长 21.60%，线上销售规模占比近 70%。 
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691623#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">173 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E8%8B%8F%E5%AE%81%E6%98%93%E8%B4%AD/" class="gray">苏宁易购</a> </span>
+                        发布于 <span class="gray">2021-04-24 14:00</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691622">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691622,'agree')">
+                        <span id="digg_num_691622" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691622" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691622/" target="_blank">机器人配蛇形柔性骨骼 应激下可“窜出”三个身长</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_624.htm"><img src="//images2015.cnblogs.com/news_topic/20150911111442153-33706165.png" class="topic_img" alt=""/></a>
+                        近日，据国际学术顶刊《科学》旗下子刊《科学&#183;机器人学》刊登的文章，西班牙巴塞罗那科学技术研究所开发了一种基于骨骼肌的仿生混合软体机器人。该机器人形似鳗鱼，配备 3D 打印的蛇形柔性骨架，具有自我应激能力，能在外部环境下调整运动模式，速度最高可达每秒 800 微米，快于其他骨骼生物机器人。 仿生混合软
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691622#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">269 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E6%9C%BA%E5%99%A8%E4%BA%BA/" class="gray">机器人</a> </span>
+                        发布于 <span class="gray">2021-04-24 11:43</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691621">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691621,'agree')">
+                        <span id="digg_num_691621" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691621" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691621/" target="_blank">迪士尼研发团队的Project Kiwi项目：自由行走的双足机器人格鲁特</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_544.htm"><img src="https://img2018.cnblogs.com/news_topic/20190727145941270-1817596613.png" class="topic_img" alt=""/></a>
+                        据外媒报道，迪士尼的研发实验室，也就是通常所说的幻想工程（Imagineering）团队，用机器人做了一些令人印象深刻且富有表现力的事情。该团队曾制作出机械特技替身、栩栩如生的外星纳威人，以及这个没有皮肤的怪人。但该公司的最新作品看起来就像从迪士尼电影中走出来的。它是一个双足机器人格鲁特，可以无拘无
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691621#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">184 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E8%BF%AA%E5%A3%AB%E5%B0%BC/" class="gray">迪士尼</a> </span>
+                        发布于 <span class="gray">2021-04-24 11:42</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691620">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691620,'agree')">
+                        <span id="digg_num_691620" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691620" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691620/" target="_blank">微软测试Xbox浏览器对鼠标的支持</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_299.htm"><img src="//images0.cnblogs.com/news_topic/xbox.jpg" class="topic_img" alt=""/></a>
+                        微软为安装了今天的 Skip Ahead build 的 Xbox Insiders 准备了一个不错的惊喜。新的由 Chromium 驱动的 Edge 浏览器中启用了鼠标支持，这意味着用户现在可以更容易和更有效地在他们的控制台中浏览网页，特别是在使用无线鼠标时。 支持该功能的新版本号是 XB_FLT
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691620#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">90 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/Xbox/" class="gray">Xbox</a> </span>
+                        发布于 <span class="gray">2021-04-24 11:41</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691619">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691619,'agree')">
+                        <span id="digg_num_691619" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691619" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691619/" target="_blank">诉讼称Apple Watch侵犯了与监测身体活动的健康设备有关的专利</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_514.htm"><img src="//images2015.cnblogs.com/news_topic/20151119093743436-66938402.png" class="topic_img" alt=""/></a>
+                        据外媒 AppleInsider 报道，苹果公司遭遇了一起新诉讼，指控 Apple Watch 侵犯了一项与监测身体活动的健康设备有关的专利。周五在美国德克萨斯州西区地方法院提起的诉讼，指控苹果公司侵犯了美国专利第6,059,576 号，名为 &quot;训练和安全设备、系统和方法，以帮助在身体活动中进行适当
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691619#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">66 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/Apple%20Watch/" class="gray">Apple Watch</a> </span>
+                        发布于 <span class="gray">2021-04-24 11:41</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691618">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691618,'agree')">
+                        <span id="digg_num_691618" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691618" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691618/" target="_blank">NASA发布“机智号”火星直升机第二次飞行的视频</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_345.htm"><img src="https://img2018.cnblogs.com/news_topic/20190528103402943-154105954.png" class="topic_img" alt=""/></a>
+                        据外媒报道，美国宇航局（NASA）发布了“机智号”（Ingenuity）火星直升机第二次飞行的视频，这是一次更加雄心勃勃的测试，因为喷气推进实验室（JPL）团队正在测试在其他星球上进行动力飞行的可能性。这次测试于 4 月 22 日进行，与 4 月 19 日进行的历史性首飞相比，在飞行计划中增加了几个
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691618#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">92 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/NASA/" class="gray">NASA</a> </span>
+                        发布于 <span class="gray">2021-04-24 11:40</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691617">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691617,'agree')">
+                        <span id="digg_num_691617" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691617" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691617/" target="_blank">Oculus开始推出更具表现力的新虚拟形象</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_666.htm"><img src="//images2015.cnblogs.com/news_topic/20151211125739652-361556151.png" class="topic_img" alt=""/></a>
+                        据外媒报道，Oculus 开始推出重新设计的虚拟化身，这些新化身比 2016 年推出的更具表现力和可定制性。它们将从今天开始出现在 Quest VR 平台的几款游戏中，包括《Epic Roller coaster》、《PokerStarsVR》和《Topgolf with Pro Putt》。很快，
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691617#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">61 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/Oculus/" class="gray">Oculus</a> </span>
+                        发布于 <span class="gray">2021-04-24 11:40</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691616">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691616,'agree')">
+                        <span id="digg_num_691616" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691616" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691616/" target="_blank">Fedora 35新提案：允许使用LLVM Clang构建更多软件包</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_718.htm"><img src="//images2015.cnblogs.com/news_topic/20160617093730401-1599712778.gif" class="topic_img" alt=""/></a>
+                        Phoronix 报道称，目前除了上游仅支持 LLVM / Clang 的项目之外，Fedora Linux 目前主要还是使用 GCC 作为默认的系统编译器。然而随着技术的不断发展，预计将有越来越多的软件会采用 LLVM Clang 来构建封包。最新消息是，Jeff Law 及现任 LLVM 版本管
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691616#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">62 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/Fedora/" class="gray">Fedora</a> </span>
+                        发布于 <span class="gray">2021-04-24 11:32</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691615">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691615,'agree')">
+                        <span id="digg_num_691615" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691615" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691615/" target="_blank">存在故障的计算机系统使数十名英国邮局员工入狱 现在定罪终于被推翻</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        
+                        据外媒 The Verge 报道，在过去的 20 年里，英国邮局的员工一直在使用一款名为“Horizon”的软件，这款软件有一个致命的缺陷：它的漏洞让员工看起来窃取了数万英镑的钱。这导致一些地方的邮政局长被定罪，甚至被送进监狱，因为邮局顽固地坚持认为该软件可以信任。经过几十年的斗争，39 人的定罪终
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691615#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">114 人浏览</span>
+                        
+                        发布于 <span class="gray">2021-04-24 11:31</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691614">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691614,'agree')">
+                        <span id="digg_num_691614" class="diggnum">1</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691614" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691614/" target="_blank">定了！我国首辆火星车命名正式公布：“祝融号”</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_319.htm"><img src="https://img2018.cnblogs.com/news_topic/20181019121101783-952728829.gif" class="topic_img" alt=""/></a>
+                        4 月 24 日消息，今日上午，中国航天日主场活动开幕式在南京举行，开幕式上，我国首辆火星车名称揭晓，经全球征名、专家评审、网络投票等层层遴选，最终“祝融号”脱颖而出。 据悉，此前国家航天局探月与航天工程中心曾公开向全国民众征集名称，并开展投票选举。 在全国选举中，弘毅、麒麟、哪吒、赤兔、祝融、求索
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691614#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">84 人浏览</span>
+                        
+                        发布于 <span class="gray">2021-04-24 11:30</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691613">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691613,'agree')">
+                        <span id="digg_num_691613" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691613" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691613/" target="_blank">打车结束嘀嗒出行还在录音！平台回应：需乘客点击“确认到达”</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_1037.htm"><img src="//images2017.cnblogs.com/news_topic/20180119104109631-1513867326.png" class="topic_img" alt=""/></a>
+                        在使用打车软件时，部分平台软件 App 会提醒，为保障乘客安全，会通过 App 软件进行录音。 不过，也有车主发现，即使自己已经结束了打车行程，回到家中后，出行软件 App 仍会自动录音，也给自己带来了不小的烦恼。 日前，据媒体报道，今年 3 月份，杭州闻女士（化名）称使用嘀嗒出行的顺风车后，接连收
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691613#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">54 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E5%98%80%E5%97%92/" class="gray">嘀嗒</a> </span>
+                        发布于 <span class="gray">2021-04-24 10:18</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691612">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691612,'agree')">
+                        <span id="digg_num_691612" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691612" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691612/" target="_blank">SpaceX申请在低轨再部署近3千颗卫星 FCC代主席支持</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_710.htm"><img src="https://img2018.cnblogs.com/news_topic/20190827105818505-1028007729.png" class="topic_img" alt=""/></a>
+                        4 月 24 日消息，美国太空探索技术公司 SpaceX 的星链项目修改计划获得美国联邦通信委员会(FCC)代理主席的支持，有望在低于最初计划的轨道上部署更多卫星。 FCC 代理主席杰西卡&#183;罗森沃塞尔(Jessica Rosenworcel)已经要求同事投票支持 SpaceX 的计划。然而，Spac
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691612#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">62 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/SpaceX/" class="gray">SpaceX</a> </span>
+                        发布于 <span class="gray">2021-04-24 10:10</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691610">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691610,'agree')">
+                        <span id="digg_num_691610" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691610" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691610/" target="_blank">对手：马斯克星链项目风险太大 危及太空和环境安全</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_570.htm"><img src="//images0.cnblogs.com/news_topic/20150702090016187.png" class="topic_img" alt=""/></a>
+                        埃隆&#183;马斯克(Elon Musk)旗下太空公司 SpaceX 正在加速构建“星链”卫星互联网服务，并在这个领域占据了主导地位。但由此也促使其竞争对手、监管机构和专家组成反对联盟，他们认为马斯克正在建立近乎垄断的地位，威胁太空和环境安全。 “先发射后升级”以抢占轨道空间 SpaceX 被允许将大约 1
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691610#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">72 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E9%A9%AC%E6%96%AF%E5%85%8B/" class="gray">马斯克</a> </span>
+                        发布于 <span class="gray">2021-04-24 10:09</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691609">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691609,'agree')">
+                        <span id="digg_num_691609" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691609" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691609/" target="_blank">美股周五反弹：英特尔跌超5%，知乎涨近16%</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_519.htm"><img src="https://img2018.cnblogs.com/news_topic/20181218133724175-1554919035.png" class="topic_img" alt=""/></a>
+                        美国时间周五，美股市收盘三大股指上涨。白宫可能寻求提高资本利得税的消息曾引发担忧，如今华尔街重新评估了这种担忧。 道琼斯指数收于 34043.49 点，上涨 227.59 点，涨幅 0.67%；标准普尔 500 指数收于 4180.17 点，上涨 1.09%；以科技股为主的纳斯达克综合指数收于 14
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691609#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">65 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E7%9F%A5%E4%B9%8E/" class="gray">知乎</a> <a href="/n/tag/%E7%BE%8E%E8%82%A1/" class="gray">美股</a> </span>
+                        发布于 <span class="gray">2021-04-24 10:09</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691608">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691608,'agree')">
+                        <span id="digg_num_691608" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691608" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691608/" target="_blank">国家航天局：中国、俄罗斯将共同建设国际月球科研站</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_319.htm"><img src="https://img2018.cnblogs.com/news_topic/20181019121101783-952728829.gif" class="topic_img" alt=""/></a>
+                        记者从国家航天局获悉，2021 年 4 月 23 日，中国国家航天局和俄罗斯国家航天集团公司联合主办的国际月球科研站宣介会在南京召开。国家航天局副局长吴艳华主持并致辞，联合国外空司司长迪皮蓬发表致辞。俄罗斯国家航天集团公司第一副总经理乌里奇奇致辞并代表中俄双方发布《中国国家航天局和俄罗斯国家航天集团
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691608#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">92 人浏览</span>
+                        
+                        发布于 <span class="gray">2021-04-24 10:08</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691607">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691607,'agree')">
+                        <span id="digg_num_691607" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691607" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691607/" target="_blank">华为与赛力斯首款合作车型两日订单已破3000辆</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_188.htm"><img src="https://img2018.cnblogs.com/news_topic/20190730153501178-1904121953.png" class="topic_img" alt=""/></a>
+                        作者：潘凌飞 小康股份旗下电动车企赛力斯 4 月 23 日披露，截至 4 月 22 日 24 时，赛力斯华为智选 SF5 车型两日订单已突破 3000 辆。业内人士称，华为跨界电动车效果显著，华为的品牌效应对电动车销售起到很大帮助作用。 4 月 20 日，华为在上海举行智慧出行华为智选品鉴会，宣布赛
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691607#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">178 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E5%8D%8E%E4%B8%BA/" class="gray">华为</a> </span>
+                        发布于 <span class="gray">2021-04-24 10:08</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691606">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691606,'agree')">
+                        <span id="digg_num_691606" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691606" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691606/" target="_blank">SpaceX成功用二手火箭发射四名宇航员 他们个个都不简单</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_710.htm"><img src="https://img2018.cnblogs.com/news_topic/20190827105818505-1028007729.png" class="topic_img" alt=""/></a>
+                        图注：执行本次飞行任务的宇航员。从左到右以此是：麦克阿瑟、佩斯奎特、星出彰彦和金布罗。 腾讯科技讯，北京时间 2021 年 4 月 23 日 17 点 50 分左右，美国太空探索技术公司（SpaceX）进行了该公司 2021 年的首次载人发射，地点位于美国佛罗里达州肯尼迪航天中心，目的地是国际空间站
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691606#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">55 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/SpaceX/" class="gray">SpaceX</a> </span>
+                        发布于 <span class="gray">2021-04-24 10:07</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691602">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691602,'agree')">
+                        <span id="digg_num_691602" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691602" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691602/" target="_blank">为了去找火箭残骸，我被困到了西北无人区，半夜还看到了狼</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        
+                        作者腾讯科技孙实关皓 编辑腾讯科技沈冲 4 月 24 日，又到了一年一度的中国航天日。过去的一年，我们看到了天问一号向火星挺进，看到了“嫦娥五号”顺利将采集到的月球样品带回地球，看到了长征八号首次飞行试验取得圆满成功…… 提到中国的航天事业，我们率先想到的可能是各种国字头背景的团队，而有一群人往往被
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691602#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">112 人浏览</span>
+                        
+                        发布于 <span class="gray">2021-04-24 10:04</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691601">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691601,'agree')">
+                        <span id="digg_num_691601" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691601" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691601/" target="_blank">抖音奇袭TME？</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_1052.htm"><img src="//images2017.cnblogs.com/news_topic/20171101134406420-1311715331.png" class="topic_img" alt=""/></a>
+                        文/龙志腾 来源：字母榜（ID：wujicaijing） 无边界的字节跳动，这一次将手伸向了 TME 的腹地。 据 Tech 星球报道，字节内部已经成立音乐事业部，四个业务组并进赛马。音乐市场上，TME 和网易云音乐二人转的格局恐被打破，抖音或将对音乐市场中生产、流通、消费三个环节进行重新整合。 在
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691601#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">85 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E6%8A%96%E9%9F%B3/" class="gray">抖音</a> </span>
+                        发布于 <span class="gray">2021-04-24 10:02</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691611">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691611,'agree')">
+                        <span id="digg_num_691611" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691611" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691611/" target="_blank">收银员消失？亚马逊尝试在大型超市采用无人零售技术</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_167.htm"><img src="https://img2018.cnblogs.com/news_topic/20190909161910284-2055092128.png" class="topic_img" alt=""/></a>
+                        亚马逊正在准备将自动结账技术引入大型商超。在彻底改变购物方式的激烈竞争中，亚马逊此举无疑是一个重要里程碑。但自动化结账技术也引发了亚马逊要消灭超市收银员这一工作的争论。亚马逊辩称，公司超市已经创造了数千个工作岗位。 位于康涅狄格州布鲁克菲尔德一家在建超市的规划文件展示了亚马逊的雄心：超市入口上方深灰
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691611#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">39 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E4%BA%9A%E9%A9%AC%E9%80%8A/" class="gray">亚马逊</a> </span>
+                        发布于 <span class="gray">2021-04-24 09:20</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691605">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691605,'agree')">
+                        <span id="digg_num_691605" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691605" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691605/" target="_blank">字节跳动回应上市传闻：公司暂不具备上市条件，目前无上市计划</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_1365.htm"><img src="https://img2018.cnblogs.com/news_topic/20190903110342690-1278481212.png" class="topic_img" alt=""/></a>
+                        腾讯科技讯，4 月 23 日，字节跳动发布公告称，近期有不少关于公司上市的消息，在此声明：经过认真研究，认为公司暂不具备上市条件，目前无上市计划。 今年 3 月底，有媒体引述知情人士消息称，字节跳动在二级市场的估值超过 2500 亿美元。根据 CB Insights 的数据，字节跳动在上一次融资（2
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691605#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">51 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8/" class="gray">字节跳动</a> </span>
+                        发布于 <span class="gray">2021-04-24 08:12</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691604">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691604,'agree')">
+                        <span id="digg_num_691604" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691604" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691604/" target="_blank">亚马逊高管层现“离职潮” 15个月至少45人离职</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_167.htm"><img src="https://img2018.cnblogs.com/news_topic/20190909161910284-2055092128.png" class="topic_img" alt=""/></a>
+                        划重点 从 2020 年初以来，已经至少有 45 名高管从亚马逊离职，包括多名高级副总裁、副总裁以及其他级别高管。 这些高管离职主要源于三大隐私，包括其他地方薪酬更高、职位更高，还因为亚马逊正逐渐失去“创业第一天”的心态。 亚马逊大约有 350 名副总裁级别高管，45 人离职意味着超过 10% 的高
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691604#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">41 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E4%BA%9A%E9%A9%AC%E9%80%8A/" class="gray">亚马逊</a> </span>
+                        发布于 <span class="gray">2021-04-24 08:08</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+            <div class="news_block" id="entry_691603">
+                <div class="action">
+                    <div class="diggit" onclick="VoteNews(691603,'agree')">
+                        <span id="digg_num_691603" class="diggnum">0</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="digg_tip_691603" class="digg-tip"></div>
+                </div>
+                <!--end: action -->
+                <div class="content">
+                    <h2 class="news_entry">
+                        <a href="/n/691603/" target="_blank">哈啰递交招股书：去年营收60.44亿元 蚂蚁持股36.3%</a>
+                    </h2>
+                    <div class="entry_summary" style="display: block;">
+                        <a href="/n/topic_1576.htm"><img src="https://img2018.cnblogs.com/news_topic/20190911171228982-274732157.png" class="topic_img" alt=""/></a>
+                        腾讯科技讯，4 月 24 日消息，哈啰出行今日递交招股书，计划赴纳斯达克上市。摩根士丹利、瑞信以及中金公司为该公司首次公开募股的联席主承销商。招股书显示，该公司募集到的资金将用于一般企业用途，包括用于增强和扩大业务产品，支持研发等。 主要财务数据： 哈啰出行 2020 年营收为 60.44 亿元，同
+                    </div>
+                    <div class="entry_footer">
+                        <a href="//home.cnblogs.com/u/itwriter/" class="gray" target="_blank">
+                            itwriter
+                        </a>投递&nbsp;
+                        <span class="comment">
+                            <a href="/n/691603#comment" class="gray" target="_blank">评论(0)</a>
+                        </span><span class="view">37 人浏览</span>
+                        <span class="tag"> <a href="/n/tag/%E5%93%88%E5%95%B0/" class="gray">哈啰</a> </span>
+                        发布于 <span class="gray">2021-04-24 08:00</span>
+                    </div>
+                    <!--end: entry_footer -->
+                </div>
+                <!--end: content -->
+                <div class="clear">
+                </div>
+            </div>
+            <!--end: news_block -->
+            <div class="clear">
+            </div>
+    </div>
+    <div class="pager"><a href="/" class="p_1 current">1</a><a href="/n/page/2/" class="p_2 middle">2</a><a href="/n/page/3/" class="p_3 middle">3</a><a href="/n/page/4/" class="p_4 middle">4</a><a href="/n/page/5/" class="p_5 middle">5</a><a href="/n/page/6/" class="p_6 middle">6</a><a href="/n/page/7/" class="p_7 middle">7</a><a href="/n/page/8/" class="p_8 middle">8</a><a href="/n/page/9/" class="p_9 middle">9</a><span class="ellipsis">···</span><a href="/n/page/100/" class="p_100 last">100</a><a href="/n/page/2/">Next &gt;</a></div>
+</div>
+
+
+<script type="text/javascript">
+    $(function () {
+        LoadNewsCategory("NewsCategoryId",11,0);
+        //新闻列表-右侧编辑推荐新闻
+        CommonLoadNews("/NewsAjax/GetRecommendNews", "RecommendNewsId", 7);
+        //新闻列表-右侧今日新闻排行
+        CommonLoadNews("/NewsAjax/GetHotNews", "HotNewsId", 10);
+        //新闻列表-右侧24小时推荐排行
+        CommonLoadNews("/NewsAjax/GetHotByDiggCount", "HotByDiggCountId", 7);
+        //新闻列表-右侧热门IT新闻
+        CommonLoadNews("/NewsAjax/GetRecentHotNews", "RecentHotNewsId", 10);
+        //新闻列表-右侧最新评论
+        LoadSideComments("NewsIndexCommentsId", 15);
+        CheckAudit();
+        LoadIndexSideInfo();
+    });
+</script>
+        <div id="sideright">
+            
+    <div style="margin-top:25px;">
+        <span id="lbAuditTips" style="display:none;"></span>
+        <div class="news_home_navlink">
+            <div id="rss_sub_top" class="rss_sub">
+                <a href="http://feed.cnblogs.com/news/rss" title="博客园IT新闻RSS订阅">
+                    <img src="//common.cnblogs.com/images/icon_rss.gif" alt="RSS订阅" />
+                </a>
+            </div>
+            <div style="line-height:30px;">
+                &gt; <a href="https://www.cnblogs.com/news/" class="big">新闻栏目</a><br />
+                &gt; <a href="/n/date/" class="big">新闻日历</a><br />
+                &gt; <a href="/n/topiclist/" class="big">新闻主题</a><br />
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <br />
+        <div id="side_right_search">
+            <input type="text" id="google_search_q" size="27" class="side_right_search_q" onkeydown="return google_search_enter(event);" />
+            <input type="submit" name="sa" value="搜索新闻" class="side_right_search_sa" onclick="return google_search();" />
+        </div>
+<div class="side_block">
+    <div class="a4content" id="e2">
+        <div id="div-gpt-ad-1533633736227-1" style="height:250px; width:300px;">
+            <script>
+                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1533633736227-1'); });
+            </script>
+        </div>
+    </div>
+</div>        <div class="side_block" id="cate_news">
+            <h3 class="title_yellow">
+                新闻类别
+            </h3>
+            <div class="indent" id="NewsCategoryId">
+            </div>
+        </div>
+        <div id="HotNews1_panelToday">
+            <div class="side_block" id="last_news">
+                <h3 class="title_blue">
+                    今日新闻排行
+                </h3>
+                <ul class="topnews block_list bt" id="HotNewsId">
+                </ul>
+            </div>
+        </div>
+        <div class="side_block">
+            <h3 class="title_yellow">
+                编辑推荐新闻
+            </h3>
+            <ul class="topnews block_list bt" id="RecommendNewsId">
+            </ul>
+        </div>
+        <div id="HotNews1_panelDiggTop">
+            <div class="side_block" id="Div1">
+                <h3 class="title_green">
+                    24小时推荐排行
+                </h3>
+                <ul class="topnews block_list bt" id="HotByDiggCountId">
+                </ul>
+            </div>
+        </div>
+        <div class="side_block" id="hot_news">
+            <h3 class="title_red">
+                热门IT新闻
+            </h3>
+            <ul class="topnews block_list bt" id="RecentHotNewsId">
+            </ul>
+        </div>
+<div class="side_block">
+    <div id="e3">
+        <div id="div-gpt-ad-1533633736227-2" style="height:250px; width:300px;">
+            <script>
+                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1533633736227-2'); });
+            </script>
+        </div>
+    </div>
+</div>        <div class="side_block">
+            <h3 class="title_green">
+                最新评论
+            </h3>
+            <ul class="block_list" id="NewsIndexCommentsId">
+            </ul>
+            <a href="/Comment">
+                <img src="/Images/more_comment.gif" title="更多最新评论" style="float: right; margin: 7px;" alt="" />
+            </a>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <a name="more"></a>
+        <div id="rss_sub_bottom" class="rss_sub">
+            <a href="http://feed.cnblogs.com/news/rss" title="博客园IT新闻RSS订阅">
+                <img src="//common.cnblogs.com/images/icon_rss_news.gif" alt="RSS订阅" />
+            </a>
+            <a href="//news.cnblogs.com/m" rel="nofollow" title="博客园新闻频道手机版">
+                <img src="/Images/ico_ing_cellphone.gif" alt="手机版" />
+            </a>
+        </div>
+    </div>
+
+        </div>
+        <div class="clear">
+        </div>
+        <div id="footer">
+            <div id="foot">
+                <a href="//www.cnblogs.com/AboutUS.aspx">关于博客园</a>
+                <a href="//www.cnblogs.com/ContactUs.aspx">联系我们</a>
+                <a href="//www.cnblogs.com/ad.aspx">广告服务</a>
+                <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备09004260号-1</a>
+                <span>&copy;2004-2021</span>
+                <a href="//www.cnblogs.com">博客园</a>
+                <span id="powered_by">Powered by .NET on Kubernetes</span>
+            </div>
+            <div id="footMobile" style="display:none;">
+                <span>&copy;2004-2021</span>&nbsp;<a href="//www.cnblogs.com">博客园</a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-476124-8']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </div>
+</body>
+</html>
