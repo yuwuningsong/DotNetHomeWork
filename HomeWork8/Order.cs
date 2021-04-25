@@ -9,7 +9,7 @@ namespace Order
     public class Order : IComparable
     {
         public List<OrderDetails> OrderDetails { get; set; }
-        public int OrderID { get => Customer.GetHashCode() + OrderDate.GetHashCode(); }
+        public int OrderID { get => Math.Abs(Customer.GetHashCode() + OrderDate.GetHashCode()); }
         public Customer Customer { get; set; }
         public DateTime OrderDate { get; set; }
         public float TotalPrice 

@@ -14,9 +14,9 @@ namespace HomeWork8
     {
         public string CusName { get; set; }
 
-        private Form1 mainForm;
+        private FormMain mainForm;
 
-        public FormSignIn(Form1 mainForm)
+        public FormSignIn(FormMain mainForm)
         {
             InitializeComponent();
             this.mainForm = mainForm;

@@ -81,7 +81,7 @@ namespace Order
         public void Export(string fileName)
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Order>));
-            using (FileStream fs = new FileStream(fileName + ".xml", FileMode.Create))
+            using (FileStream fs = new FileStream(fileName, FileMode.Create))
             {
                 xmlSerializer.Serialize(fs, Orders);
             }
@@ -90,7 +90,7 @@ namespace Order
         public void Export(List<Order> orders, string fileName)
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Order>));
-            using (FileStream fs = new FileStream(fileName + ".xml", FileMode.Create))
+            using (FileStream fs = new FileStream(fileName, FileMode.Create))
             {
                 xmlSerializer.Serialize(fs, orders);
             }
@@ -101,7 +101,7 @@ namespace Order
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Order>));
             List<Order> orders = new List<Order>();
-            using (FileStream fs = new FileStream(fileName + ".xml", FileMode.Open))
+            using (FileStream fs = new FileStream(fileName, FileMode.Open))
             {
                 orders = (List<Order>)xmlSerializer.Deserialize(fs);
             }

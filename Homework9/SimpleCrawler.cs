@@ -66,8 +66,10 @@ namespace Homework9
                 {
                     Urls.Add(new Url(current, "成功"));
                 }
-                statusChange("爬行结束");
+                statusChange("爬行结束");   
             }
+            urls = new Hashtable();
+            Urls = new List<Url>();
         }
 
         public string DownLoad(string url)

@@ -28,7 +28,12 @@ namespace Order
         {
             OrderDetails orderDetails = obj as OrderDetails;
             if (orderDetails == null) return false;
-            return (orderDetails.Product.Equals(this.Product)) && (orderDetails.Num == this.Num);
+            if (orderDetails.Product == null && this.Product == null) return true;
+            if (orderDetails.Product != null && this.Product != null)
+            {
+                return (orderDetails.Product.Equals(this.Product)) && (orderDetails.Num == this.Num);
+            }
+            return false;
         }
 
         public override int GetHashCode()
