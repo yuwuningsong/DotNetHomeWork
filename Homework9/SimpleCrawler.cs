@@ -15,6 +15,7 @@ namespace Homework9
     {
         private Hashtable urls = new Hashtable();
         private int count = 0;
+        private Thread thread;
 
         public Action<string> statusChange; 
 
@@ -28,12 +29,13 @@ namespace Homework9
             statusChange += StatusChange;
             Urls = new List<Url>();
             OnlyCurrent = true;
+            thread = new Thread(this.Crawl);
         }
 
         public void PrepareCrawl(string startUrl)
         {
             this.urls.Add(startUrl, false);
-            new Thread(this.Crawl).Start();
+            thread.Start();
         }
 
         private void Crawl()

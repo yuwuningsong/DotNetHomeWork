@@ -26,7 +26,6 @@ namespace Homework9
         private void Form1_Load(object sender, EventArgs e)
         {
             textWebsite.DataBindings.Add("Text", this, "StartUrl");
-            radioCurrentYes.DataBindings.Add("Checked", simpleCrawler, "OnlyCurrent");
             bindingSourceUrl.DataSource = simpleCrawler.Urls;
         }
 
@@ -40,6 +39,7 @@ namespace Homework9
             {
                 if (MessageBox.Show("网站输入不合法") == DialogResult.OK) return;
             }
+            simpleCrawler.OnlyCurrent = radioCurrentYes.Checked;
             simpleCrawler.PrepareCrawl(textWebsite.Text);
         }
 
