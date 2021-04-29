@@ -40,7 +40,14 @@ namespace Homework9
                 if (MessageBox.Show("网站输入不合法") == DialogResult.OK) return;
             }
             simpleCrawler.OnlyCurrent = radioCurrentYes.Checked;
-            simpleCrawler.PrepareCrawl(textWebsite.Text);
+            try
+            {
+                simpleCrawler.PrepareCrawl(textWebsite.Text);
+            }
+            catch (ArgumentException)
+            {
+                if (MessageBox.Show("该网站已爬取，请输入未爬取过的网站！") == DialogResult.OK) return;
+            }
         }
 
         private bool IsValid(string website)
@@ -59,9 +66,9 @@ namespace Homework9
         // 刷新状态信息
         private void RefreshStatus(string str)
         {
-            labStatus.Text = str;
-            labStatus.Refresh();
-            bindingSourceUrl.ResetBindings(false);
+            //labStatus.Text = str;
+            //labStatus.Refresh();
+            //bindingSourceUrl.ResetBindings(false);
         }
     }
 }

@@ -70,8 +70,6 @@ namespace Homework9
                 }
                 statusChange("爬行结束");   
             }
-            urls = new Hashtable();
-            Urls = new List<Url>();
         }
 
         public string DownLoad(string url)
