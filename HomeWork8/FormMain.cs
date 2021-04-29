@@ -52,7 +52,8 @@ namespace HomeWork8
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            orderService.DeleteOrder((Order.Order)this.gridViewOrder.SelectedRows[0].DataBoundItem);
+            orderService.DeleteOrder((Order.Order)orderBindingSource.Current);
+            RefreshAllData();
         }
 
         private void btnExport_Click(object sender, EventArgs e)
