@@ -66,9 +66,9 @@ namespace Homework9
         // 刷新状态信息
         private void RefreshStatus(string str)
         {
-            //labStatus.Text = str;
-            //labStatus.Refresh();
-            //bindingSourceUrl.ResetBindings(false);
+            labStatus.Text = str;
+            labStatus.Refresh();
+            bindingSourceUrl.ResetBindings(false);
         }
     }
 }

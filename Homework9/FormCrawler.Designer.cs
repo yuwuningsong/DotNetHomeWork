@@ -38,17 +38,17 @@ namespace Homework9
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnStart = new System.Windows.Forms.Button();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.labSetting = new System.Windows.Forms.Label();
-            this.radioCurrentYes = new System.Windows.Forms.RadioButton();
-            this.radioCurrentNo = new System.Windows.Forms.RadioButton();
-            this.bindingSourceUrl = new System.Windows.Forms.BindingSource(this.components);
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.messageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bindingSourceUrl = new System.Windows.Forms.BindingSource(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.radioCurrentNo = new System.Windows.Forms.RadioButton();
+            this.radioCurrentYes = new System.Windows.Forms.RadioButton();
+            this.labSetting = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSourceUrl)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // labTitle
@@ -138,60 +138,11 @@ namespace Homework9
             this.dataGridView.Location = new System.Drawing.Point(0, 157);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowTemplate.Height = 20;
+            this.dataGridView.RowTemplate.ReadOnly = true;
             this.dataGridView.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView.Size = new System.Drawing.Size(623, 293);
             this.dataGridView.TabIndex = 6;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.radioCurrentNo);
-            this.panel2.Controls.Add(this.radioCurrentYes);
-            this.panel2.Controls.Add(this.labSetting);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(629, 157);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(171, 293);
-            this.panel2.TabIndex = 7;
-            // 
-            // labSetting
-            // 
-            this.labSetting.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labSetting.AutoSize = true;
-            this.labSetting.Font = new System.Drawing.Font("宋体", 14F);
-            this.labSetting.Location = new System.Drawing.Point(17, 12);
-            this.labSetting.Name = "labSetting";
-            this.labSetting.Size = new System.Drawing.Size(142, 19);
-            this.labSetting.TabIndex = 0;
-            this.labSetting.Text = "仅爬取当前页面";
-            // 
-            // radioCurrentYes
-            // 
-            this.radioCurrentYes.AutoSize = true;
-            this.radioCurrentYes.Checked = true;
-            this.radioCurrentYes.Font = new System.Drawing.Font("宋体", 11F);
-            this.radioCurrentYes.Location = new System.Drawing.Point(33, 46);
-            this.radioCurrentYes.Name = "radioCurrentYes";
-            this.radioCurrentYes.Size = new System.Drawing.Size(40, 19);
-            this.radioCurrentYes.TabIndex = 1;
-            this.radioCurrentYes.TabStop = true;
-            this.radioCurrentYes.Text = "是";
-            this.radioCurrentYes.UseVisualStyleBackColor = true;
-            // 
-            // radioCurrentNo
-            // 
-            this.radioCurrentNo.AutoSize = true;
-            this.radioCurrentNo.Font = new System.Drawing.Font("宋体", 11F);
-            this.radioCurrentNo.Location = new System.Drawing.Point(95, 46);
-            this.radioCurrentNo.Name = "radioCurrentNo";
-            this.radioCurrentNo.Size = new System.Drawing.Size(40, 19);
-            this.radioCurrentNo.TabIndex = 2;
-            this.radioCurrentNo.Text = "否";
-            this.radioCurrentNo.UseVisualStyleBackColor = true;
-            // 
-            // bindingSourceUrl
-            // 
-            this.bindingSourceUrl.DataSource = typeof(Homework9.Url);
             // 
             // nameDataGridViewTextBoxColumn
             // 
@@ -209,7 +160,57 @@ namespace Homework9
             this.messageDataGridViewTextBoxColumn.Name = "messageDataGridViewTextBoxColumn";
             this.messageDataGridViewTextBoxColumn.Width = 250;
             // 
-            // Form1
+            // bindingSourceUrl
+            // 
+            this.bindingSourceUrl.DataSource = typeof(Homework9.Url);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.radioCurrentNo);
+            this.panel2.Controls.Add(this.radioCurrentYes);
+            this.panel2.Controls.Add(this.labSetting);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(629, 157);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(171, 293);
+            this.panel2.TabIndex = 7;
+            // 
+            // radioCurrentNo
+            // 
+            this.radioCurrentNo.AutoSize = true;
+            this.radioCurrentNo.Font = new System.Drawing.Font("宋体", 11F);
+            this.radioCurrentNo.Location = new System.Drawing.Point(95, 46);
+            this.radioCurrentNo.Name = "radioCurrentNo";
+            this.radioCurrentNo.Size = new System.Drawing.Size(40, 19);
+            this.radioCurrentNo.TabIndex = 2;
+            this.radioCurrentNo.Text = "否";
+            this.radioCurrentNo.UseVisualStyleBackColor = true;
+            // 
+            // radioCurrentYes
+            // 
+            this.radioCurrentYes.AutoSize = true;
+            this.radioCurrentYes.Checked = true;
+            this.radioCurrentYes.Font = new System.Drawing.Font("宋体", 11F);
+            this.radioCurrentYes.Location = new System.Drawing.Point(33, 46);
+            this.radioCurrentYes.Name = "radioCurrentYes";
+            this.radioCurrentYes.Size = new System.Drawing.Size(40, 19);
+            this.radioCurrentYes.TabIndex = 1;
+            this.radioCurrentYes.TabStop = true;
+            this.radioCurrentYes.Text = "是";
+            this.radioCurrentYes.UseVisualStyleBackColor = true;
+            // 
+            // labSetting
+            // 
+            this.labSetting.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labSetting.AutoSize = true;
+            this.labSetting.Font = new System.Drawing.Font("宋体", 14F);
+            this.labSetting.Location = new System.Drawing.Point(17, 12);
+            this.labSetting.Name = "labSetting";
+            this.labSetting.Size = new System.Drawing.Size(142, 19);
+            this.labSetting.TabIndex = 0;
+            this.labSetting.Text = "仅爬取当前页面";
+            // 
+            // FormCrawler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -217,15 +218,15 @@ namespace Homework9
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "FormCrawler";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSourceUrl)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSourceUrl)).EndInit();
             this.ResumeLayout(false);
 
         }
