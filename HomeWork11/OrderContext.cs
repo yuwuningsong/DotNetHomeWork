@@ -21,13 +21,7 @@ namespace HomeWork11
 
         public DbSet<Order.Order> Orders { get; set; }
         public DbSet<OrderDetails> OrderDetails { get; set; }
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Order.Order>().Property(o => o.OrderID)
-            .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
-            modelBuilder.Entity<OrderDetails>().Property(o => o.OrderDetailID)
-            .HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
-        }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

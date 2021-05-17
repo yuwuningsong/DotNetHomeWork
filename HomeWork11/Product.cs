@@ -10,6 +10,7 @@ namespace Order
     public class Product
     {
         [Key]
+        public int ProductId { get => this.GetHashCode(); set { } }
         public string Name { get; set; }
         [Required]
         public float Price { get; set; }

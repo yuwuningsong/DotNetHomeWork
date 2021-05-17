@@ -69,3 +69,4 @@ D:\bugs\C#\DotNetHomeWork\HomeWork11\bin\Debug\System.Memory.xml
 D:\bugs\C#\DotNetHomeWork\HomeWork11\bin\Debug\System.Numerics.Vectors.xml
 D:\bugs\C#\DotNetHomeWork\HomeWork11\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\bugs\C#\DotNetHomeWork\HomeWork11\obj\Debug\HomeWork11.csproj.CopyComplete
+D:\bugs\C#\DotNetHomeWork\HomeWork11\obj\Debug\HomeWork11.csprojAssemblyReference.cache

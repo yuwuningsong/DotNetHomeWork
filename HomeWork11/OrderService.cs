@@ -25,7 +25,20 @@ namespace Order
             using (var context = new OrderContext())
             {
                 if (this.FindOrder(order) != null) return;
+
+                context.Customers.Add(order.Customer);
+                order.CustomerId = order.Customer.CustomerId;
+                order.Customer = null;
+
+                for(int i = 0; i < order.OrderDetails.Count; i++)
+                {
+                    context.Products.Add(order.OrderDetails[i].Product);
+                    order.OrderDetails[i].ProductId = order.OrderDetails[i].Product.ProductId;
+                    order.OrderDetails[i].Product = null;
+                }
+
                 context.Orders.Add(order);
+
                 context.SaveChanges();
                 Orders.Add(order);
             }
@@ -39,7 +52,7 @@ namespace Order
             }
             using (var context = new OrderContext())
             {
-                var orderFound = context.Orders.Include(o => o.OrderDetails).FirstOrDefault(od => od.OrderID == order.OrderID);
+                var orderFound = context.Orders.Include(o => o.OrderDetails).FirstOrDefault(od => od.OrderId == order.OrderId);
                 if (orderFound != null)
                 {
                     context.Orders.Remove(orderFound);
@@ -54,7 +67,7 @@ namespace Order
             if (order == null) return null;
             using (var context = new OrderContext())
             {
-                var orderFound = context.Orders.SingleOrDefault(o => o.OrderID == order.OrderID);
+                var orderFound = context.Orders.SingleOrDefault(o => o.OrderId == order.OrderId);
                 if (orderFound != null) return orderFound;
             }
             return null;
@@ -110,7 +123,7 @@ namespace Order
             }
         }
 
-        public IEnumerable<Order> FindOrder(float totalPrice)
+        public List<Order> FindOrder(float totalPrice)
         {
             using (var context = new OrderContext())
             {

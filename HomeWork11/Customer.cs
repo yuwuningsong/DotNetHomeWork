@@ -10,6 +10,7 @@ namespace Order
     public class Customer
     {
         [Key]
+        public int CustomerId { get => Name.GetHashCode(); set { } }
         public string Name { get; set; }
 
         public Customer(string name)

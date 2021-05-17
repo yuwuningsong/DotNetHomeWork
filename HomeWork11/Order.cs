@@ -12,9 +12,10 @@ namespace Order
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Key]
-        public int OrderID { get => Math.Abs(Customer.GetHashCode() + OrderDate.GetHashCode()); set { } }
+        public int OrderId { get => Math.Abs(CustomerId + OrderDate.GetHashCode()); set { } }
         public List<OrderDetails> OrderDetails { get; set; }
         [Required]
+        public int CustomerId { get; set; }
         public Customer Customer { get; set; }
         [Required]
         public DateTime OrderDate { get; set; }
@@ -49,7 +50,7 @@ namespace Order
 
         public override string ToString()
         {
-            StringBuilder stringBuilder = new StringBuilder($"订单{OrderID}：\n" + Customer + $"\n下单时间：{OrderDate}\n总金额：{TotalPrice}\n配送地址：{Address}\n");
+            StringBuilder stringBuilder = new StringBuilder($"订单{OrderId}：\n" + Customer + $"\n下单时间：{OrderDate}\n总金额：{TotalPrice}\n配送地址：{Address}\n");
             foreach(OrderDetails orderDetails in OrderDetails)
             {
                 stringBuilder.Append(orderDetails + "\n");
@@ -61,7 +62,7 @@ namespace Order
         {
             Order order = obj as Order;
             if (order == null) return false;
-            return order.OrderID == this.OrderID;
+            return order.OrderId == this.OrderId;
         }
 
         public override int GetHashCode()
@@ -72,7 +73,7 @@ namespace Order
         public int CompareTo(object obj)
         {
             Order order = obj as Order;
-            return this.OrderID.CompareTo(order.OrderID);
+            return this.OrderId.CompareTo(order.OrderId);
         }
     }
 }

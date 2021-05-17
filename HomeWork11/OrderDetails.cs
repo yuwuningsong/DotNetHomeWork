@@ -12,8 +12,9 @@ namespace Order
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Key]
-        public int OrderDetailID { get => Math.Abs(this.GetHashCode()); set { } }
+        public int OrderDetailId { get => Math.Abs(this.GetHashCode()); set { } }
         [Required]
+        public int ProductId { get; set; }
         public Product Product { get; set; }
         [Required]
         public int Num { get; set; }
